@@ -28,8 +28,8 @@ export default function ProjectsPage() {
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
             Projects
           </h1>
-          <p className="text-lg text-muted-foreground mb-12 max-w-2xl">
-            A collection of projects I&apos;ve built, from web applications to games. Each project represents a unique challenge and learning experience.
+          <p className="text-lg text-muted-foreground mb-12 max-w-3xl">
+            A collection of projects I have created, from web applications to games. Each project provided a challenge and taught me new skills.
           </p>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">

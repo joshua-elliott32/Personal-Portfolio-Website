@@ -8,11 +8,11 @@ import { Footer } from "@/components/footer"
 export default function Home() {
   return (
     <main className="min-h-screen bg-background">
-      {/* <Header /> */}
+      <Header />
       <Hero />
-      {/* <Experience />
+      <Experience />
       <Education />
-      <Projects /> */}
+      <Projects />
       <Footer />
     </main>
   )

@@ -7,7 +7,7 @@ const educations = [
     title: "BSc Computer Science",
     institution: "University of London",
     description:
-      "Ipeco Holdings Ltd is sponsoring me to complete a part-time degree in Computer Science with the University of London, which will allow me to further deepen my knowledge and skills in Computer Science.",
+      "While working at Ipeco Holdings Ltd I am completing part-time degree in Computer Science with the University of London, which will allow me to further deepen my knowledge and skills in Computer Science.",
     technologies: ["Mathematics", "Programming", "Data Structures & Algorithms"],
   },
   {
@@ -63,7 +63,7 @@ export function Education() {
             </div>
           ))}
         </div>
-        <div className="mt-12">
+        {/* <div className="mt-12">
           <a
             href="/cv.pdf"
             className="group inline-flex items-center gap-2 text-foreground font-medium hover:text-primary transition-colors"
@@ -72,7 +72,7 @@ export function Education() {
             Download CV
             <ArrowUpRight className="h-4 w-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   )

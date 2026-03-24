@@ -6,38 +6,38 @@ export const projects = [
   {
     title: "Portfolio Site",
     description:
-      "My portfolio website built with Next.js and Tailwind CSS.",
-    image: "/projects/portfolio.jpg",
+      "My first attempt at development using Next.js and Tailwind CSS. This is my personal portfolio site to showcase my projects, experience, and skills.",
+    image: "/projects/portfolio.png",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Shadcn/ui", "Vercel"],
     link: "https://joshuaelliott.dev",
     repo: "https://github.com/joshua-elliott32/Personal-Portfolio-Website",
     slug: "portfolio-site",
     fullDescription:
-      "This portfolio website is built using Next.js and Tailwind CSS, showcasing my projects, experience, and skills. It features a clean and modern design with responsive layouts, dark mode support, and smooth animations. The site is deployed on Vercel for optimal performance and scalability.",
+      "My first attempt at development using Next.js and Tailwind CSS. This is my personal portfolio site to showcase my projects, experience, and skills.",
   },
   {
     title: "Spacecraft Evolution",
     description:
-      "An engaging browser-based game where players evolve and upgrade their spacecraft. Navigate through space, collect resources, and enhance your ship's capabilities.",
-    image: "/projects/spacecraft.jpg",
-    technologies: ["JavaScript", "p5.js", "Socket.io"],
-    link: "#",
+      "A game where players upgrade their spacecraft and fight other players. Navigate through space, collect resources, and improve your ship's attributes. This was my A-Level Computer Science project.",
+    image: "/projects/spacecraft-evolution.png",
+    technologies: ["JavaScript", "p5.js", "Socket.io", "Object Oriented Programming"],
+    link: "https://multiplayer-space-shooter-2d.onrender.com",
     repo: "https://github.com/joshua-elliott32/Spacecraft-Evolution-2024",
     slug: "spacecraft-evolution",
     fullDescription:
-      "Spacecraft Evolution is a browser-based game developed using JavaScript and the p5.js library. Players start with a basic spacecraft and can evolve it by collecting resources scattered throughout space. The game features various upgrades, allowing players to enhance their ship's speed, durability, and firepower. With multiplayer support via Socket.io, players can compete or collaborate with friends in real-time.",
+      "Spacecraft Evolution is a browser-based game developed using JavaScript and the p5.js library. Players start with a basic spacecraft and can evolve it by collecting resources scattered throughout space. The game features various upgrades, allowing players to enhance their ship's speed, durability, and firepower. With multiplayer support using Socket.io, players can compete with friends.",
   },
   {
     title: "Multiplayer Snake",
     description:
-      "A multiplayer snake game with customisation options and a leaderboard. Supports up to 8 players in a single session.",
-    image: "/projects/snake.jpg",
+      "A multiplayer snake game with customisation options and a leaderboard. A personal project to learn about game development and real-time multiplayer functionality using Socket.io in preparation for developing Spacecraft Evolution.",
+    image: "/projects/snake.png",
     technologies: ["JavaScript", "p5.js", "Socket.io"],
-    link: "#",
+    link: "https://multiplayer-snake-2023.onrender.com",
     repo: "https://github.com/joshua-elliott32/Multiplayer-Snake-2023",
     slug: "multiplayer-snake",
     fullDescription:
-      "Multiplayer Snake is a modern take on the classic snake game, developed using JavaScript and p5.js. The game supports up to 8 players in a single session, allowing for competitive gameplay. Players can customize their snakes with different colors and patterns, and compete for the top spot on the leaderboard. Real-time multiplayer functionality is enabled through Socket.io, providing a seamless gaming experience.",
+      "Multiplayer Snake is a modern take on the classic snake game, developed using JavaScript and p5.js. Players can customize their snakes with different colors, and compete for the top spot on the leaderboard. Multiplayer functionality is possible using Socket.io.",
   },
 ]
 
@@ -50,7 +50,7 @@ export function Projects() {
         </h2>
 
         <div className="space-y-16">
-          {projects.map((project, index) => (
+          {projects.slice(0, 3).map((project, index) => (
             <Link
               key={index}
               href={`/projects/${project.slug}`}

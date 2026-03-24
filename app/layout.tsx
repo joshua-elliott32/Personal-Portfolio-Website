@@ -10,23 +10,14 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'Joshua Elliott | Trainee Business Systems Developer',
   description: 'Business Systems Developer crafting accessible, pixel-perfect digital experiences for the web.',
-  generator: 'v0.app',
+  // generator: 'v0.app',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
+        url: '/profileImage.jpeg',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/profileImage.jpeg',
   },
 }
 
@@ -40,7 +31,7 @@ export default function RootLayout({
       <body className="font-sans antialiased">
         <ThemeProvider
           attribute="class"
-          defaultTheme="light"
+          defaultTheme="dark"
           enableSystem
         >
           {children}

@@ -4,7 +4,7 @@ import { Github, Linkedin, Mail, MapPin } from "lucide-react"
 
 const socialLinks = [
   { icon: Github, href: "https://github.com/joshua-elliott32", label: "GitHub" },
-  { icon: Linkedin, href: "www.linkedin.com/in/joshua-elliott-448005277", label: "LinkedIn" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/joshua-elliott-448005277", label: "LinkedIn" },
   { icon: Mail, href: "mailto:joshua.elliott0302@gmail.com", label: "Email" },
 ]
 
@@ -28,7 +28,7 @@ export function Hero() {
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
-              I am  a Trainee Business Systems Developer with a passion for solving problems and building solutions. I am eager to challenge myself and expand my skill set within the industry.
+              I am a Trainee Business Systems Developer with a passion for solving problems and building solutions. I am eager to challenge myself and develop new skills.
             </p>
 
             <div className="flex gap-5 pt-4">

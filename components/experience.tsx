@@ -8,7 +8,7 @@ const experiences = [
     company: "Ipeco Holdings Ltd",
     companyUrl: "https://ipeco.com",
     description:
-      "Build and maintain critical components used to construct modern web applications, working across the full stack. Collaborate closely with cross-functional teams to implement and advocate for best practices in web development.",
+      "During my time as a Trainee Business Systems Developer at Ipeco Holdings Ltd, I have been involved in various projects that have allowed me to develop my skills in software development as well as increase my communication skills and confidence by working with different teams across the business.",
     technologies: ["SAP", "C#", "JavaScript", "SQL", "Website Development"],
   },
   {
@@ -17,8 +17,8 @@ const experiences = [
     company: "Ipeco Holdings Ltd",
     companyUrl: "https://ipeco.com",
     description:
-      "Build and maintain critical components used to construct modern web applications, working across the full stack. Collaborate closely with cross-functional teams to implement and advocate for best practices in web development.",
-    technologies: ["SAP", "C#", "JavaScript", "SQL"],
+      "During the summer of 2023, I had the opportunity to work as a Junior Business Systems Developer at Ipeco Holdings Ltd. In this role, I contributed to the development and maintenance of systems used throughout the organisation. I worked closely with the Business Systems team to understand requirements and implement solutions that improved efficiency and functionality. ",
+    technologies: ["HTML", "CSS", "JavaScript", "SAPUI5"],
   },
 ]
 
@@ -67,7 +67,7 @@ export function Experience() {
           ))}
         </div>
 
-        <div className="mt-12">
+        {/* <div className="mt-12">
           <a
             href="/cv.pdf"
             className="group inline-flex items-center gap-2 text-foreground font-medium hover:text-primary transition-colors"
@@ -76,7 +76,7 @@ export function Experience() {
             Download CV
             <ArrowUpRight className="h-4 w-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   )
