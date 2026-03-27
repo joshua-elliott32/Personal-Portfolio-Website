@@ -3,7 +3,6 @@
 import { useState } from "react"
 import Link from "next/link"
 import { Menu, X } from "lucide-react"
-import { ThemeToggle } from "@/components/theme-toggle"
 
 const navItems = [
   { label: "Experience", href: "/#experience" },
@@ -31,11 +30,9 @@ export function Header() {
               {item.label}
             </Link>
           ))}
-          <ThemeToggle />
         </div>
 
         <div className="flex items-center gap-2 md:hidden">
-          <ThemeToggle />
           <button
             type="button"
             className="text-foreground"

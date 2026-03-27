@@ -6,19 +6,19 @@ export const projects = [
   {
     title: "Portfolio Site",
     description:
-      "My first attempt at development using Next.js and Tailwind CSS. This is my personal portfolio site to showcase my projects, experience, and skills.",
+      "My first attempt at development using Next.js and Tailwind CSS. This is my personal portfolio site to showcase my projects, experience, and skills. I used v0 to create the initial template and then customised it to my liking, adding the content and improving the design.",
     image: "/projects/portfolio.png",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Shadcn/ui", "Vercel"],
     link: "https://joshuaelliott.dev",
     repo: "https://github.com/joshua-elliott32/Personal-Portfolio-Website",
     slug: "portfolio-site",
     fullDescription:
-      "My first attempt at development using Next.js and Tailwind CSS. This is my personal portfolio site to showcase my projects, experience, and skills.",
+      "My first attempt at development using Next.js and Tailwind CSS. This is my personal portfolio site to showcase my projects, experience, and skills. I used v0 to create the initial template and then customised it to my liking, adding the content and improving the design.",
   },
   {
     title: "Spacecraft Evolution",
     description:
-      "A game where players upgrade their spacecraft and fight other players. Navigate through space, collect resources, and improve your ship's attributes. This was my A-Level Computer Science project.",
+      "A game where players upgrade their spacecraft and fight other players. Navigate through space, collect resources, and improve your ship's attributes. This was my A-Level Computer Science project which earned me a grade of A.",
     image: "/projects/spacecraft-evolution.png",
     technologies: ["JavaScript", "p5.js", "Socket.io", "Object Oriented Programming"],
     link: "https://multiplayer-space-shooter-2d.onrender.com",

@@ -1,6 +1,8 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Github, Linkedin, Mail, MapPin } from "lucide-react"
+import { calculateAge } from "@/lib/utils"
+
 
 const socialLinks = [
   { icon: Github, href: "https://github.com/joshua-elliott32", label: "GitHub" },
@@ -8,7 +10,12 @@ const socialLinks = [
   { icon: Mail, href: "mailto:joshua.elliott0302@gmail.com", label: "Email" },
 ]
 
+// Parse DOB from environment variable
+const dobString = process.env.NEXT_PUBLIC_DOB?.toString();
+const birthDate = dobString ? new Date(dobString) : new Date();
+
 export function Hero() {
+  const age = calculateAge(birthDate);
   return (
     <section id="about" className="min-h-screen flex items-center pt-0">
       <div className="mx-auto max-w-6xl px-6 lg:px-8 py-24 lg:py-32">
@@ -28,7 +35,7 @@ export function Hero() {
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
-              I am a Trainee Business Systems Developer with a passion for solving problems and building solutions. I am eager to challenge myself and develop new skills.
+              I am currently a Trainee Business Systems Developer and love solving problems and developing solutions. I am <span>{age}</span> years old, eager to challenge myself and develop new skills.
             </p>
 
             <div className="flex gap-5 pt-4">

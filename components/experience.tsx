@@ -8,8 +8,8 @@ const experiences = [
     company: "Ipeco Holdings Ltd",
     companyUrl: "https://ipeco.com",
     description:
-      "During my time as a Trainee Business Systems Developer at Ipeco Holdings Ltd, I have been involved in various projects that have allowed me to develop my skills in software development as well as increase my communication skills and confidence by working with different teams across the business.",
-    technologies: ["SAP", "C#", "JavaScript", "SQL", "Website Development"],
+      "During my time as a Trainee Business Systems Developer at Ipeco Holdings Ltd, I have developed my skills in software development as well as increased my communication skills and confidence working with different teams across the business. Projects I have worked on include creation of the most recent ipeco.com website, development of a collection of SAPUI5 applications to improve the despatch process and changes to streamline the company's custom CRM system.",
+    technologies: ["SAP", "C#", "JavaScript", "SQL", "CSS", "WordPress and Elementor"],
   },
   {
     period: "Summer 2023",
@@ -17,7 +17,7 @@ const experiences = [
     company: "Ipeco Holdings Ltd",
     companyUrl: "https://ipeco.com",
     description:
-      "During the summer of 2023, I had the opportunity to work as a Junior Business Systems Developer at Ipeco Holdings Ltd. In this role, I contributed to the development and maintenance of systems used throughout the organisation. I worked closely with the Business Systems team to understand requirements and implement solutions that improved efficiency and functionality. ",
+      "During the summer of 2023, I had the opportunity to work for 6 weeks as a Junior Business Systems Developer at Ipeco Holdings Ltd. I was the main contributor to the redevelopment of the landing page of a system used throughout the production process. I worked closely with the Business Systems team to understand requirements and discussed solutions with relevant stakeholders. ",
     technologies: ["HTML", "CSS", "JavaScript", "SAPUI5"],
   },
 ]
