@@ -35,7 +35,7 @@ export function Hero() {
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
-              I am currently a Trainee Business Systems Developer and love solving problems and developing solutions. I am <span>{age}</span> years old, eager to challenge myself and develop new skills.
+              Business Systems Developer with 2+ years of experience developing and maintaining business systems including full stack .NET web applications, SAP and SAPUI5 applications. Experienced throughout the full development cycle including collecting business requirements, planning, developing and testing solutions.
             </p>
 
             <div className="flex gap-5 pt-4">
