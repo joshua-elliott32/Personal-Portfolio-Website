@@ -4,6 +4,17 @@ import { ArrowUpRight } from "lucide-react"
 
 export const projects = [
   {
+    title: "West Mersea Assembly Hall Website",
+    description:
+      "Building on my Next.js experience, I created a simplistic and modern website for the West Mersea Assembly Hall. Future developmnent may include setting up a Santity CMS.",
+    image: "/projects/AssemblyHall.JPG",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
+    link: "https://wmah.co.uk",
+    slug: "wmah-site",
+    fullDescription:
+      "Building on my Next.js experience, I created a simplistic and modern website for the West Mersea Assembly Hall. Future developmnent may include setting up a Santity CMS.",
+  },
+  {
     title: "Portfolio Site",
     description:
       "My first attempt at development using Next.js and Tailwind CSS. This is my personal portfolio site to showcase my projects, experience, and skills. I used v0 to create the initial template and then customised it to my liking, adding the content and improving the design.",

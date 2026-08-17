@@ -3,7 +3,16 @@ import { ArrowUpRight } from "lucide-react"
 
 const experiences = [
   {
-    period: "2024 — Present",
+    period: "2026 — Present",
+    title: "Business Systems Developer",
+    company: "Ipeco Holdings Ltd",
+    companyUrl: "https://ipeco.com",
+    description:
+      "As a Business Systems Developer at Ipeco Holdings Ltd, I am responsible for developing and maintaining critical business systems that support the company's operations. My role involves collaborating with other departments to understand business requirements, designing and implementing software solutions.",
+    technologies: ["SAP", "C#", "JavaScript", "SQL", "CSS", "WordPress and Elementor"],
+  },
+  {
+    period: "2024 — 2026",
     title: "Trainee Business Systems Developer",
     company: "Ipeco Holdings Ltd",
     companyUrl: "https://ipeco.com",

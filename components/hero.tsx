@@ -26,7 +26,7 @@ export function Hero() {
               Joshua Elliott
             </h1>
             <h2 className="text-xl md:text-2xl font-medium text-primary">
-              Trainee Business Systems Developer
+              Business Systems Developer
             </h2>
             
             <div className="flex items-center gap-2 text-muted-foreground">
@@ -35,7 +35,7 @@ export function Hero() {
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
-              I am currently a Trainee Business Systems Developer and love solving problems and developing solutions. I am <span>{age}</span> years old, eager to challenge myself and develop new skills.
+              I am currently a Business Systems Developer who enjoys solving problems and developing solutions. I am <span>{age}</span> years old and I consistently challenge myself and develop new skills.
             </p>
 
             <div className="flex gap-5 pt-4">
