@@ -8,8 +8,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Joshua Elliott | Trainee Business Systems Developer',
-  description: 'Business Systems Developer crafting accessible, pixel-perfect digital experiences for the web.',
+  title: 'Joshua Elliott | Business Systems Developer',
+  description: 'Business Systems Developer - Developing and Maintaining critical business systems.',
   // generator: 'v0.app',
   icons: {
     icon: [

@@ -26,16 +26,11 @@ export function Hero() {
               Joshua Elliott
             </h1>
             <h2 className="text-xl md:text-2xl font-medium text-primary">
-              Trainee Business Systems Developer
+              Business Systems Developer
             </h2>
-            
-            <div className="flex items-center gap-2 text-muted-foreground">
-              <MapPin className="h-4 w-4" />
-              <span>Essex, United Kingdom</span>
-            </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
-              Business Systems Developer with 2+ years of experience developing and maintaining business systems including full stack .NET web applications, SAP and SAPUI5 applications.
+              Business Systems Developer with experience developing and maintaining business systems including full stack .NET web applications, SAPUI5 applications, and other SAP reporting solutions. Experienced throughout the full development cycle including collecting business requirements, planning, developing and testing solutions.             
             </p>
 
             <div className="flex gap-5 pt-4">
