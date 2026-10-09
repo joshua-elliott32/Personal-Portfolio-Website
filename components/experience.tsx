@@ -3,22 +3,22 @@ import { ArrowUpRight } from "lucide-react"
 
 const experiences = [
   {
-    period: "2026 — Present",
+    period: "October 2026 — Present",
     title: "Business Systems Developer",
     company: "Ipeco Holdings Ltd",
     companyUrl: "https://ipeco.com",
     description:
-      "As a Business Systems Developer at Ipeco Holdings Ltd, I am responsible for developing and maintaining critical business systems that support the company's operations. My role involves collaborating with other departments to understand business requirements, designing and implementing software solutions.",
-    technologies: ["SAP", "C#", "JavaScript", "SQL", "CSS", "WordPress and Elementor"],
+      "As a Business Systems Developer at Ipeco Holdings Ltd, I am responsible for developing and maintaining critical business systems that support the company's operations. My role involves understanding business requirements, designing and implementing software solutions.",
+    technologies: ["SAP", "Full Stack Development", "JavaScript", "C#", ".NET", "EntityFramework", "SQL"],
   },
   {
-    period: "2024 — 2026",
+    period: "July 2024 — October 2026",
     title: "Trainee Business Systems Developer",
     company: "Ipeco Holdings Ltd",
     companyUrl: "https://ipeco.com",
     description:
-      "During my time as a Trainee Business Systems Developer at Ipeco Holdings Ltd, I have developed my skills in software development as well as increased my communication skills and confidence working with different teams across the business. Projects I have worked on include creation of the most recent ipeco.com website, development of a collection of SAPUI5 applications to improve the despatch process and changes to streamline the company's custom CRM system.",
-    technologies: ["SAP", "C#", "JavaScript", "SQL", "CSS", "WordPress and Elementor"],
+      "During my time as a Trainee Business Systems Developer at Ipeco Holdings Ltd, I developed my skills in software development as well as increased my communication skills and confidence working with different teams across the business. Projects I have worked on include creation of the most recent ipeco.com website, development of a collection of SAPUI5 applications to improve the despatch process and changes to streamline the company's custom CRM system.",
+    technologies: ["SAP", "Full Stack Development", "WordPress and Elementor"],
   },
   {
     period: "Summer 2023",

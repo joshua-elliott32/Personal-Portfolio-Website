@@ -4,6 +4,28 @@ import { ArrowUpRight } from "lucide-react"
 
 export const projects = [
   {
+    title: "Macro Tracking App",
+    description:
+      "Ongoing project to create a mobile application to track macronutrients and calories. The app should be a tool to help people stay consistent and disciplined while trying to reach their goals.", 
+    image: "/projects/macroapp.png",
+    technologies: ["React Native", "TypeScript", "Supabase"],
+    link: "",
+    slug: "macro-app",
+    fullDescription:
+      "Ongoing project to create a mobile application to track macronutrients and calories. The app should be a tool to help people stay consistent and disciplined while trying to reach their goals.", 
+  },
+  {
+    title: "ERD Tool",
+    description:
+      "Curated an Entity Relationship diagram tool to help iterate potential database structures before beginning development.", 
+    image: "/projects/ERD Tool.png",
+    technologies: [],
+    link: "https://entity-relationship-diagrams.vercel.app/",
+    slug: "erd-tool",
+    fullDescription:
+      "Curated an Entity Relationship diagram tool to help iterate potential database structures before beginning development.",
+  },
+  {
     title: "West Mersea Assembly Hall Website",
     description:
       "Building on my Next.js experience, I created a simplistic and modern website for the West Mersea Assembly Hall. Future developmnent may include setting up a Santity CMS.",
